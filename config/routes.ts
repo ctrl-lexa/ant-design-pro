@@ -28,6 +28,84 @@ export default [
     icon: 'smile',
     component: './Welcome',
   },
+  // ========== MENU KOPERASI BERMADANI ==========
+  {
+    path: '/minimarket',
+    name: 'minimarket',
+    icon: 'shop',
+    routes: [
+      {
+        path: '/minimarket',
+        redirect: '/minimarket/produk',
+      },
+      {
+        path: '/minimarket/produk',
+        name: 'produk',
+        icon: 'appstore',
+        component: './table-list',
+      },
+      {
+        path: '/minimarket/stok',
+        name: 'stok',
+        icon: 'inbox',
+        component: './table-list',
+      },
+      {
+        path: '/minimarket/transaksi',
+        name: 'transaksi',
+        icon: 'transaction',
+        component: './table-list',
+      },
+      {
+        path: '/minimarket/supplier',
+        name: 'supplier',
+        icon: 'contacts',
+        component: './table-list',
+      },
+    ],
+  },
+  {
+    path: '/simpan-pinjam',
+    name: 'simpanPinjam',
+    icon: 'bank',
+    routes: [
+      {
+        path: '/simpan-pinjam',
+        redirect: '/simpan-pinjam/anggota',
+      },
+      {
+        path: '/simpan-pinjam/anggota',
+        name: 'anggota',
+        icon: 'team',
+        component: './table-list',
+      },
+      {
+        path: '/simpan-pinjam/pengajuan',
+        name: 'pengajuan',
+        icon: 'file-text',
+        component: './table-list',
+      },
+      {
+        path: '/simpan-pinjam/pinjaman',
+        name: 'pinjaman',
+        icon: 'dollar',
+        component: './table-list',
+      },
+      {
+        path: '/simpan-pinjam/angsuran',
+        name: 'angsuran',
+        icon: 'calendar',
+        component: './table-list',
+      },
+      {
+        path: '/simpan-pinjam/tabungan',
+        name: 'tabungan',
+        icon: 'account-book',
+        component: './table-list',
+      },
+    ],
+  },
+  // ========== MENU ORIGINAL (TETAP ADA) ==========
   {
     path: '/admin',
     name: 'admin',

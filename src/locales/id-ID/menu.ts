@@ -1,12 +1,33 @@
 export default {
-  'menu.welcome': 'Selamat Datang',
+  'menu.welcome': 'Beranda',
   'menu.more-blocks': 'Blocks Lainnya',
   'menu.home': 'Halaman Awal',
-  'menu.admin': 'Admin',
-  'menu.admin.sub-page': 'Sub-Halaman',
   'menu.login': 'Masuk',
   'menu.register': 'Pendaftaran',
   'menu.register-result': 'Hasil Pendaftaran',
+  
+  // Minimarket (BSM Mart)
+  'menu.minimarket': 'Minimarket BSM',
+  'menu.minimarket.produk': 'Manajemen Produk',
+  'menu.minimarket.stok': 'Stok Barang',
+  'menu.minimarket.transaksi': 'Transaksi Penjualan',
+  'menu.minimarket.supplier': 'Data Supplier',
+  
+  // Simpan Pinjam
+  'menu.simpanPinjam': 'Simpan Pinjam',
+  'menu.simpanPinjam.anggota': 'Data Anggota',
+  'menu.simpanPinjam.pengajuan': 'Pengajuan Pinjaman',
+  'menu.simpanPinjam.pinjaman': 'Pinjaman Aktif',
+  'menu.simpanPinjam.angsuran': 'Pembayaran Angsuran',
+  'menu.simpanPinjam.tabungan': 'Tabungan Anggota',
+  
+  // Admin
+  'menu.admin': 'Administrasi',
+  'menu.admin.users': 'Manajemen Pengguna',
+  'menu.admin.settings': 'Pengaturan Sistem',
+  'menu.admin.sub-page': 'Sub-Halaman',
+  
+  // Original menu items (kept for compatibility)
   'menu.dashboard': 'Dasbor',
   'menu.dashboard.analysis': 'Analisis',
   'menu.dashboard.monitor': 'Monitor',
