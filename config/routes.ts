@@ -28,6 +28,12 @@ export default [
     icon: 'smile',
     component: './Welcome',
   },
+  {
+    path: '/dashboard',
+    name: 'dashboard',
+    icon: 'dashboard',
+    component: './dashboard',
+  },
   // ========== MENU KOPERASI BERMADANI ==========
   {
     path: '/minimarket',
